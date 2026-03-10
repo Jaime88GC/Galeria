@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Galería</h1>
+        <button class="menu-btn">☰</button>
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reveal">
+            <h2>Bienvenidos a nuestra galería de arte</h2>
+            <p>Descubre las obras más impresionantes de artistas talentosos.</p>
+        </section>
+
+        <section class="expo ">
+            <div class="reveal">
+                <h2>Próximas exposiciones</h2>
+                <div class="filtros ">
+                    <button class="filtro" data-cat="todos">Todos</button>
+                    <button class="filtro" data-cat="primavera">Primavera</button>
+                    <button class="filtro" data-cat="retratos">Retratos</button>
+                     <button class="filtro" data-cat="arteurbano">Arte Urbano</button>
+                </div>
+                <div class="expo-grid">
+                    <article class=" reveal" data-cat="primavera">
+                        <img src="img/primavera1.jpg" alt="Exposición de primavera" class=" reveal"
+                            data-cat="primavera" />
+                        <h3>Exposición de primavera</h3>
+                        <p>
+                            Descubre las obras más recientes de nuestros artistas destacados.
+                        </p>
+                    </article>
+
+                    <article class=" reveal" data-cat="retratos">
+                        <img src="img/retrato2.jpg" alt="Retrato del siglo XX" class=" reveal" data-cat="retratos" />
+                        <h3>Retratos del siglo XX</h3>
+                        <p>
+                            Una selección de retratos que representan la esencia del siglo
+                            pasado.
+                        </p>
+                    </article>
+
+                    <article class=" reveal" data-cat="arteurbano">
+                        <img src="img/arteurbano1.jpg" alt="Exposición de arte urbano" class=" reveal"
+                            data-cat="arteurbano" />
+                        <h3>Arte urbano</h3>
+                        <p>
+                            Descubre las obras más recientes de nuestros artistas destacados.
+                        </p>
+                    </article>
+
+                </div>
+        </section>
+
+        <section class="about  reveal delay-1">
+            <h2>Acerca de nosotros</h2>
+            <p>
+                Somos una galería de arte dedicada a mostrar las mejores obras de
+                artistas locales e internacionales.
+            </p>
+        </section>
+    </main>
+
+    <footer class="info">
+        <p>&copy; 2024 Galería. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
